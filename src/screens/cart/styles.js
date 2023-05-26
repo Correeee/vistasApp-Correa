@@ -11,14 +11,32 @@ export const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
   },
   footerContainer: {
-    backgroundColor: COLORS.yellow,
+    backgroundColor: COLORS.primary,
     borderTopColor: COLORS.primary,
     borderTopWidth: 4,
     paddingHorizontal: 10,
     paddingVertical: 10,
   },
+  buttonDisabled: {
+    backgroundColor: COLORS.lightGray,
+    borderRadius: 5,
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+
+    elevation: 3,
+  },
   buttonConfirm: {
-    backgroundColor: COLORS.secondary,
+    backgroundColor: COLORS.brightRed,
     borderRadius: 5,
     paddingHorizontal: 20,
     paddingVertical: 15,
@@ -37,7 +55,7 @@ export const styles = StyleSheet.create({
   },
   buttonConfirmText: {
     color: COLORS.white,
-    fontFamily: "Inter-Medium",
+    fontFamily: "Inter-Bold",
     fontSize: 14,
   },
   totalContainer: {
@@ -48,7 +66,7 @@ export const styles = StyleSheet.create({
   },
   totalText: {
     color: COLORS.white,
-    fontFamily: "Inter-Medium",
+    fontFamily: "Inter-Bold",
     fontSize: 14,
   },
   totalPrice: {

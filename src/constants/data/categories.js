@@ -2,12 +2,12 @@ export const CATEGORIES = [
   {
     id: 1,
     name: "Harinas Puras",
-    color: "#457b9d",
+    color: "#e63946",
   },
   {
     id: 2,
     name: "Harinas Integrales",
-    color: "#e63946",
+    color: "#457b9d",
   },
   {
     id: 3,
@@ -22,6 +22,6 @@ export const CATEGORIES = [
   {
     id: 5,
     name: "Harinas de Arroz",
-    color: "#000000",
+    color: "#e63946",
   },
 ];

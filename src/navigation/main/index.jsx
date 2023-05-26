@@ -7,7 +7,7 @@ const MainNavigator = () => {
     return (
         <Stack.Navigator initialRouteName="Categories">
             <Stack.Screen name="Categories" component={Categories} />
-            <Stack.Screen name="Category" component={Category} />
+            {/* <Stack.Screen name="Category" component={Category} /> */}
             <Stack.Screen name="Product" component={Product} />
             <Stack.Screen name="Products" component={Products} />
         </Stack.Navigator>

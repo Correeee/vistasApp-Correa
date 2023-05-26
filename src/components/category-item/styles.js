@@ -26,8 +26,8 @@ export const styles = StyleSheet.create({
     padding: 10,
   },
   name: {
-    fontSize: 20,
-    fontFamily: "Inter-Bold",
-    color: COLORS.white,
+    fontSize: 22,
+    fontFamily: "Inter-Regular",
+    color: COLORS.secondary,
   },
 });

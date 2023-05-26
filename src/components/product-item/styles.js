@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.primary,
     shadowColor: "#000",
+    borderRadius: 10,
     shadowOffset: {
       width: 0,
       height: 1,
@@ -26,22 +27,22 @@ export const styles = StyleSheet.create({
     padding: 10,
   },
   name: {
-    fontSize: 14,
+    fontSize: 18,
     fontFamily: "Inter-Regular",
     textAlign: "center",
-    color: COLORS.white
+    color: COLORS.secondary
   },
   price: {
     fontSize: 15,
     fontFamily: "Inter-Bold",
     paddingBottom: 5,
     textAlign: "center",
-    color: COLORS.white
+    color: COLORS.secondary
   },
   weight: {
-    fontSize: 12,
+    fontSize: 14,
     fontFamily: "Inter-Regular",
     textAlign: "center",
-    color: COLORS.white
+    color: COLORS.secondary
   },
 });

@@ -18,7 +18,7 @@ const ShopNavigator = () => {
           fontFamily: "Inter-Bold",
         },
       }}>
-      <Stack.Screen name="Categories" component={Categories} options={{ headerShown: false }} />
+      <Stack.Screen name="Categorias" component={Categories} options={{ headerShown: false }} />
       <Stack.Screen
         name="Products"
         component={Products}
